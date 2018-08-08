@@ -13,7 +13,7 @@ images=(
   coredns:1.1.3
 )
 for imageName in ${images[@]} ; do
-  docker pull keveon/$imageName
-  docker tag keveon/$imageName k8s.gcr.io/$imageName
-  docker rmi keveon/$imageName
+  docker pull jilingjun1014/$imageName
+  docker tag jilingjun1014/$imageName k8s.gcr.io/$imageName
+  docker rmi jilingjun1014/$imageName
 done
