@@ -11,6 +11,7 @@ images=(
   k8s-dns-kube-dns-amd64:1.14.8
   k8s-dns-dnsmasq-nanny-amd64:1.14.8
   coredns:1.1.3
+  metrics-server-amd64:v0.2.1
 )
 for imageName in ${images[@]} ; do
   docker pull jilingjun1014/$imageName
