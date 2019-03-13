@@ -1,10 +1,10 @@
 #!/bin/bash
 images=(
-  kube-proxy-amd64:v1.13.4 
-  kube-scheduler-amd64:v1.13.4 
-  kube-controller-manager-amd64:v1.13.4 
-  kube-apiserver-amd64:v1.13.4
-  etcd-amd64:3.2.24
+  kube-proxy:v1.13.4 
+  kube-scheduler:v1.13.4 
+  kube-controller-manager:v1.13.4 
+  kube-apiserver:v1.13.4
+  etcd:3.2.24
   pause:3.1 
 #  kubernetes-dashboard-amd64:v1.8.3
 #  k8s-dns-sidecar-amd64:1.14.8 
